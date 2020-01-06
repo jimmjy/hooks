@@ -3,7 +3,6 @@ import React, { useState } from "react";
 function CounterHooks() {
   const [count, updateCount] = useState(0);
 
-  console.log(count);
   return (
     <div>
       <p>{count}</p>

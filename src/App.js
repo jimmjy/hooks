@@ -4,6 +4,7 @@ import "./App.css";
 
 import Counter from "./Counter.component.jsx";
 import CounterHooks from "./CounterHooks.component.jsx";
+import Toggler from "./Toggler.component.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </a>
         <Counter />
         <CounterHooks />
+        <Toggler />
       </header>
     </div>
   );
